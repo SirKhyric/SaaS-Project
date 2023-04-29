@@ -1,0 +1,61 @@
+:root {
+  --button: #2476FF;
+  --hiring-btn: #2576FF;
+  --para-color: #666;
+  --sketch: #01C9A7;
+  --late-grey: #828282; 
+  --light-grey: #677788;
+  --dark-grey: #8D8D8D;
+  --night-grey: #5F6368;
+  --lines-color: #E6E9F2;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a { 
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+p { margin-top: 0px;}
+
+img {
+  width: 100%;
+  border-style: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sketch {
+  color: white;
+  margin-left: 10px;
+  padding: 4px 10px;
+  background-color: var(--sketch);
+  border-radius: 25px;
+  font-weight: 900;
+  font-size: 11px;
+  margin-bottom: 0px;
+}
